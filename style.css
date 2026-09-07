@@ -45,6 +45,24 @@ div {
     margin: 5px;
 }
 
+.posts tr {
+    display: grid;
+    gap: 20px;
+    margin: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.posts th {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: burlywood;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+}
+
 h3 {
     display: grid;
     justify-content: center;
